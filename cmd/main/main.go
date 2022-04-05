@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Onai23/go_students_crud_mysql/pkg/routes"
+	"github.com/RosaSinaga1/go_students_crud_mysql/pkg/routes"
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	"log"
