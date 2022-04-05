@@ -14,6 +14,6 @@ func main() {
 	r := mux.NewRouter()
 	routes.RegisterStudentsRoutes(r)
 	http.Handle("/", r)
-	fmt.Print("Starting Server localhost:8080")
-	log.Fatal(http.ListenAndServe("localhost:8080", r))
+	fmt.Print("Starting Server localhost:3306")
+	log.Fatal(http.ListenAndServe("localhost:3306", r))
 }
