@@ -11,7 +11,7 @@ var (
 
 //set fungsi connect
 func Connect() {
-	d, err := gorm.Open("mysql", "root:root@tcp(127.0.0.1:3306)/db_go_mysql?charset=utf8mb4&parseTime=True&loc=Local")
+	d, err := gorm.Open("mysql", "root:@tcp(127.0.0.1:3306)/db_go_mysql?charset=utf8mb4&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}
