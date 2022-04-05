@@ -3,8 +3,8 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Onai23/go_students_crud_mysql/pkg/models"
-	"github.com/Onai23/go_students_crud_mysql/pkg/utils"
+	"github.com/RosaSinaga1/go_students_crud_mysql/pkg/models"
+	"github.com/RosaSinaga1/go_students_crud_mysql/pkg/utils"
 	"github.com/gorilla/mux"
 	"net/http"
 	"strconv"
